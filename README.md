@@ -115,7 +115,5 @@ Contains Arduino code (`app.ino`), wiring diagram, video demo, and calibration n
 📂 See [`robotic_arm/`](Robotic-arm-pick-place)
 
 Example images:
-
-![Arm](Robotic-arm-pick-place/images/arm.jpg)
   
 ![Demo Video](Robotic-arm-pick-place/video/demo.gif)
