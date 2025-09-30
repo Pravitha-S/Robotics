@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>nav2_rover</name>
+  <version>0.0.1</version>
+  <description>Rover navigation package with cmd_vel subscriber and SLAM</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>std_msgs</depend>
+</package>
