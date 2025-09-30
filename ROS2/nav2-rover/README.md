@@ -11,8 +11,8 @@ Raspberry Pi based rover with SLAM & navigation.
 
 Example screenshots:
 
-![Teleop](nav2-rover/screenshots/teleop-twist-keyboard.png)  
-![Mapping](nav2-rover/images/rover-gazebo-mapping.jpg)
+![Teleop](screenshots/teleop-twist-keyboard.png)  
+![Mapping](images/rover-gazebo-mapping.jpg)
 
 ### Workflow
 1. **Teleop**
