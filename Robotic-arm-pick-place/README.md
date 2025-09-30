@@ -1,9 +1,9 @@
-## Requirements
-
-# MG995 Robotic Arm — Pick & Place (ESP32)
+# Robotic Arm — Pick & Place (ESP32)
 
 **Short:** ESP32 + MG995 robotic arm performing a simple pick & place demo.  
-Contains Arduino code (`app.ino`), wiring diagram, video demo, and calibration notes.
+Contains Arduino code (`app.ino`), video demo.
+
+!(images/arm.jpg)
 
 - **Hardware**
   - ESP32 Dev Board (e.g., ESP32-WROOM-32)
