@@ -3,7 +3,7 @@
 **Short:** ESP32 + MG995 robotic arm performing a simple pick & place demo.  
 Contains Arduino code (`app.ino`), video demo.
 
-!(images/arm.jpg)
+![Robotic Arm](images/arm.jpg)
 
 - **Hardware**
   - ESP32 Dev Board (e.g., ESP32-WROOM-32)
