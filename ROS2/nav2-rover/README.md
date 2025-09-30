@@ -11,8 +11,8 @@ Raspberry Pi based rover with SLAM & navigation.
 
 Example screenshots:
 
-![Teleop](ROS2/nav2-rover/screenshots/teleop-twist-keyboard.png)  
-![Mapping](ROS2/nav2-rover/images/rover-gazebo-mapping.jpg)
+![Teleop](nav2-rover/screenshots/teleop-twist-keyboard.png)  
+![Mapping](nav2-rover/images/rover-gazebo-mapping.jpg)
 
 ### Workflow
 1. **Teleop**
@@ -95,6 +95,3 @@ ros2_ws/
         └── rf2o-laser-odom.png
         ├── ssh-raspberry-pi.png
         └── teleop-twist-keyboard.png ``` </pre>
-   
-   
-   g
