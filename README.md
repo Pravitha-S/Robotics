@@ -28,18 +28,23 @@ Example screenshots:
 ![Teleop](ROS2/nav2-rover/screenshots/teleop-twist-keyboard.png)
 
 ### Workflow
+<pre> ```bash
 1. **Teleop**
    ```bash
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
 → publishes /cmd_vel
+   
 2. **Velocity subscriber**
    ros2 run nav2_rover cmdvel_listener --ros-args -p port:=/dev/ttyUSB0
+   
 3. **Arduino side (ESP32 / Uno + L298N)**
    Reads serial input "linear,angular"
    Converts to PWM (–255 to +255) for left/right wheels
    Tested with 6.5 cm wheels, 13 cm base width, ~50 RPM motors
+   
 4. **SLAM**
    ros2 launch nav2_rover mapping.launch.py
+    ``` </pre>
 
 **Steps to Do**
 
