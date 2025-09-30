@@ -67,7 +67,7 @@ ros2_ws/
    Robotics/
 │── README.md
 │
-├── robotic_arm/              # Placeholder for future robotic arm work
+├── robotic_arm/              # Arm work to pick place objects
 │
 └── nav2_rover/               # Main rover project 
     │── package.xml
