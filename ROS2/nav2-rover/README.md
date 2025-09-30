@@ -11,8 +11,8 @@ Raspberry Pi based rover with SLAM & navigation.
 
 Example screenshots:
 
-![Teleop](nav2-rover/screenshots/teleop-twist-keyboard)  
-![Mapping](nav2-rover/images/rover-gazebo-mapping.jpg)
+![Teleop](ROS2/nav2-rover/screenshots/teleop-twist-keyboard.png)  
+![Mapping](ROS2/nav2-rover/images/rover-gazebo-mapping.jpg)
 
 ### Workflow
 1. **Teleop**
@@ -42,7 +42,8 @@ Example screenshots:
 
 **ROS 2 Python package structure in Ubuntu**
 
-   ros2_ws/
+<pre> ```bash 
+ros2_ws/
 └── src/
     └── cmdvel_listener/
         ├── package.xml
@@ -54,10 +55,10 @@ Example screenshots:
         │   ├── __init__.py
         │   └── cmdvel_listener.py   <-- node code (CmdVelListener class)
         └── launch/
-            └── cmdvel_listener_launch.py   <-- for launching with ros2 launch
+            └── cmdvel_listener_launch.py   <-- for launching with ros2 launch ``` </pre>
 
 📂 Folder Structure Github
-
+<pre> ```bash 
    Robotics/
 │── README.md
 │
@@ -93,4 +94,7 @@ Example screenshots:
         ├── remmina-remote-desktop.png
         └── rf2o-laser-odom.png
         ├── ssh-raspberry-pi.png
-        └── teleop-twist-keyboard.png
+        └── teleop-twist-keyboard.png ``` </pre>
+   
+   
+   g
