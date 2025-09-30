@@ -23,8 +23,9 @@ Currently includes:
 
 Example screenshots:
 
-![Teleop](nav2-rover/screenshots/teleop-twist-keyboard)  
-![Mapping](nav2-rover/images/rover-gazebo-mapping.jpg)
+![Rover](ROS2/nav2-rover/images/rover-side-view.jpg) 
+![Mapping](ROS2/nav2-rover/images/rover-gazebo-mapping.jpg)  
+![Teleop](ROS2/nav2-rover/screenshots/teleop-twist-keyboard.png)
 
 ### Workflow
 1. **Teleop**
@@ -53,7 +54,7 @@ Example screenshots:
    9. Navigation tuning
 
 📂 Folder Structure
-
+<pre> ```bash
    Robotics/
 │── README.md
 │
@@ -93,10 +94,10 @@ Example screenshots:
         └── rf2o-laser-odom.png
         ├── ssh-raspberry-pi.png
         └── teleop-twist-keyboard.png
-
+   ``` </pre>
    ---
 
-## 🦾 MG995 Robotic Arm — Pick & Place (ESP32)
+## 🦾 Robotic Arm — Pick & Place 
 
 **Short:** ESP32 + MG995 robotic arm performing a simple pick & place demo.  
 Contains Arduino code (`app.ino`), wiring diagram, video demo, and calibration notes.
@@ -106,8 +107,8 @@ Contains Arduino code (`app.ino`), wiring diagram, video demo, and calibration n
 - Calibration script included
 - Pick & place demo verified with small objects
 
-📂 See [`robotic_arm/`](Robotic-arm-mg995-pick-place)
+📂 See [`robotic_arm/`](Robotic-arm-pick-place)
 
 Example images:
   
-![Demo Video](Robotic-arm-mg995-pick-place/demo.gif)
+![Demo Video](Robotic-arm-pick-place/video/demo.gif)
